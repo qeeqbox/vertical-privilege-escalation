@@ -1,6 +1,6 @@
 <p align="center"> <img src="https://raw.githubusercontent.com/qeeqbox/vertical-privilege-escalation/content/horizontal-privilege-escalation.svg"></p>
 
-A threat actor may perform unauthorized functions belonging to another user with a similar privilege level.
+A threat actor may perform unauthorized functions belonging to another user with a higher privilege level.
 
 Clone this current repo recursively
 ```sh
