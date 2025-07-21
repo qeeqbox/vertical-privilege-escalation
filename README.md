@@ -1,4 +1,4 @@
-<p align="center"> <img src="https://raw.githubusercontent.com/qeeqbox/vertical-privilege-escalation/content/horizontal-privilege-escalation.svg"></p>
+<p align="center"> <img src="https://raw.githubusercontent.com/qeeqbox/vertical-privilege-escalation/main/content/vertical-privilege-escalation.svg"></p>
 
 A threat actor may perform unauthorized functions belonging to another user with a higher privilege level.
 
@@ -11,17 +11,17 @@ Run the webapp using Python
 python3 horizontal-privilege-escalation/vulnerable-web-app/webapp.py
 ```
 Open the webapp in your browser 127.0.0.1:5142
-<p align="center"> <img src="https://raw.githubusercontent.com/qeeqbox/vertical-privilege-escalation/content/1.png"></p>
+<p align="center"> <img src="https://raw.githubusercontent.com/qeeqbox/vertical-privilege-escalation/main/content/1.png"></p>
 Login as John (username: john and password: john)
-<p align="center"> <img src="https://raw.githubusercontent.com/qeeqbox/vertical-privilege-escalation/content/2.png"></p>
+<p align="center"> <img src="https://raw.githubusercontent.com/qeeqbox/vertical-privilege-escalation/main/content/2.png"></p>
 John has access to the tickets only
-<p align="center"> <img src="https://raw.githubusercontent.com/qeeqbox/vertical-privilege-escalation/content/3.png"></p>
+<p align="center"> <img src="https://raw.githubusercontent.com/qeeqbox/vertical-privilege-escalation/main/content/3.png"></p>
 Logout
-<p align="center"> <img src="https://raw.githubusercontent.com/qeeqbox/vertical-privilege-escalation/content/4.png"></p>
+<p align="center"> <img src="https://raw.githubusercontent.com/qeeqbox/vertical-privilege-escalation/main/content/4.png"></p>
 Login as Joe (username: joe and password: joe)
-<p align="center"> <img src="https://raw.githubusercontent.com/qeeqbox/vertical-privilege-escalation/content/5.png"></p>
+<p align="center"> <img src="https://raw.githubusercontent.com/qeeqbox/vertical-privilege-escalation/main/content/5.png"></p>
 Joe also has access to the tickets and sysinfo
-<p align="center"> <img src="https://raw.githubusercontent.com/qeeqbox/vertical-privilege-escalation/content/6.png"></p>
+<p align="center"> <img src="https://raw.githubusercontent.com/qeeqbox/vertical-privilege-escalation/main/content/6.png"></p>
 
 ## Code
 This logic checks if the user is logged in, then it renders sections based on the user's access
