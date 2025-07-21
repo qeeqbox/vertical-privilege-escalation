@@ -1,4 +1,4 @@
-<p align="center"> <img src="https://raw.githubusercontent.com/qeeqbox/vertical-privilege-escalation/content/horizontal-privilege-escalation.svg"></p>
+<p align="center"> <img src="https://raw.githubusercontent.com/qeeqbox/vertical-privilege-escalation/content/vertical-privilege-escalation.svg"></p>
 
 A threat actor may perform unauthorized functions belonging to another user with a higher privilege level.
 
