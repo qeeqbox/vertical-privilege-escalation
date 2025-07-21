@@ -26,14 +26,14 @@ Joe also has access to the tickets and sysinfo
 ## Code
 This logic checks if the user is logged in, then it renders sections based on the user's access
 ```py
-    @logged_in
-    def render_home_page(self):
-        content = b""
-        cookies = SimpleCookie(self.headers.get('Cookie'))
-        if "access" in cookies:
-            for access in cookies["access"].value.split(","):
-                content += getattr(self, f"{access}_section" , None)()
-        return BASE_TEMPLATE.replace(b"{{body}}",content)
+@logged_in
+def render_home_page(self):
+    content = b""
+    cookies = SimpleCookie(self.headers.get('Cookie'))
+    if "access" in cookies:
+        for access in cookies["access"].value.split(","):
+            content += getattr(self, f"{access}_section" , None)()
+    return BASE_TEMPLATE.replace(b"{{body}}",content)
 ```
  
 ## Impact
