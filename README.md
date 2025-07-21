@@ -24,7 +24,7 @@ Joe also has access to the tickets and sysinfo
 <p align="center"> <img src="https://raw.githubusercontent.com/qeeqbox/vertical-privilege-escalation/content/6.png"></p>
 
 ## Code
-This logic checks if the user is logged in, then it renders sections based on user access
+This logic checks if the user is logged in, then it renders sections based on the user's access
 ```py
     @logged_in
     def render_home_page(self):
