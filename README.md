@@ -4,7 +4,7 @@ A threat actor may perform unauthorized functions belonging to another user with
 
 Clone this current repo recursively
 ```sh
-git clone --recursive https://github.com/qeeqbox/horizontal-privilege-escalation
+git clone --recurse-submodules https://github.com/qeeqbox/horizontal-privilege-escalation
 ```
 Run the webapp using Python
 ```sh
